@@ -1138,7 +1138,7 @@ bool CAddInNative::CallAsFunc(const long lMethodNum,
 
 		case eMethWindow_Main:
 		{
-			TV_VT(pvarRetValue) = VTYPE_BOOL;
+			TV_VT(pvarRetValue)		= VTYPE_BOOL;
 
 			wchar_t	tmp[64];
 
@@ -1150,7 +1150,7 @@ bool CAddInNative::CallAsFunc(const long lMethodNum,
 
 		case eMethWindow_GetByTitle:
 		{
-			TV_VT(pvarRetValue) = VTYPE_BOOL;
+			TV_VT(pvarRetValue)		= VTYPE_BOOL;
 
 			wchar_t	*title = TV_WSTR(&paParams[0]);
 			wchar_t	tmp[64];
@@ -1174,13 +1174,13 @@ bool CAddInNative::CallAsFunc(const long lMethodNum,
 
 		case eMethWindow_GetCoordinates:
 		{
-			TV_VT(pvarRetValue) = VTYPE_BOOL;
+			TV_VT(pvarRetValue)		= VTYPE_BOOL;
 
-			wchar_t	*window_id	= TV_WSTR(&paParams[0]);
+			wchar_t	*window_id		= TV_WSTR(&paParams[0]);
 
 			int x1, x2, y1, y2;
 
-			bool	res	=	WindowsWorkDispatch_GetCoordinates(window_id, &x1, &y1, &x2, &y2);
+			bool	res				=	WindowsWorkDispatch_GetCoordinates(window_id, &x1, &y1, &x2, &y2);
 
 			if (res)
 			{
