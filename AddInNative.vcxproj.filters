@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source Files\draw1c">
+      <UniqueIdentifier>{d90c82f3-5f9a-4def-916d-5567a109bd73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\input1c">
+      <UniqueIdentifier>{b092f523-2be2-4202-831c-1204a596a741}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sys1c">
+      <UniqueIdentifier>{1f2efb85-fe12-450e-89b9-59fd1bd91c96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ww1c">
+      <UniqueIdentifier>{8e4285e3-48b6-40ba-b763-6ca16a2dc05c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="draw1c\draw_dispatch.cpp">
+      <Filter>Source Files\draw1c</Filter>
+    </ClCompile>
+    <ClCompile Include="draw1c\draw_engine.cpp">
+      <Filter>Source Files\draw1c</Filter>
+    </ClCompile>
+    <ClCompile Include="draw1c\image_work.cpp">
+      <Filter>Source Files\draw1c</Filter>
+    </ClCompile>
+    <ClCompile Include="input1c\input_dispatch.cpp">
+      <Filter>Source Files\input1c</Filter>
+    </ClCompile>
+    <ClCompile Include="sys1c\timer_work.cpp">
+      <Filter>Source Files\sys1c</Filter>
+    </ClCompile>
+    <ClCompile Include="sys1c\sys_dispatch.cpp">
+      <Filter>Source Files\sys1c</Filter>
+    </ClCompile>
+    <ClCompile Include="input1c\bcbuffer.cpp">
+      <Filter>Source Files\input1c</Filter>
+    </ClCompile>
+    <ClCompile Include="AddInNative.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ww1c\ww_dispatch.cpp">
+      <Filter>Source Files\ww1c</Filter>
+    </ClCompile>
+    <ClCompile Include="draw1c\draw_out.cpp">
+      <Filter>Source Files\draw1c</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AddInNative.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="draw1c\draw_dispatch.h">
+      <Filter>Source Files\draw1c</Filter>
+    </ClInclude>
+    <ClInclude Include="draw1c\draw_engine.h">
+      <Filter>Source Files\draw1c</Filter>
+    </ClInclude>
+    <ClInclude Include="draw1c\image_work.h">
+      <Filter>Source Files\draw1c</Filter>
+    </ClInclude>
+    <ClInclude Include="input1c\input_dispatch.h">
+      <Filter>Source Files\input1c</Filter>
+    </ClInclude>
+    <ClInclude Include="sys1c\timer_work.h">
+      <Filter>Source Files\sys1c</Filter>
+    </ClInclude>
+    <ClInclude Include="sys1c\sys_dispatch.h">
+      <Filter>Source Files\sys1c</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="input1c\bcbuffer.h">
+      <Filter>Source Files\input1c</Filter>
+    </ClInclude>
+    <ClInclude Include="ww1c\ww_dispatch.h">
+      <Filter>Source Files\ww1c</Filter>
+    </ClInclude>
+    <ClInclude Include="draw1c\draw_out.h">
+      <Filter>Source Files\draw1c</Filter>
+    </ClInclude>
+    <ClInclude Include="AddInNative.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NativeDraw.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
